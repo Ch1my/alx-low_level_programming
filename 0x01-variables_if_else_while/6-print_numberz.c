@@ -6,10 +6,12 @@
  */
 int main(void)
 {
-	int i;
+	int num;
 
-	for (i = 0; i <= 9; i++)
-		putchar(i);
-	putchar('\n');
-	return (0);
+        for (num = 0; num <= 9; num++)
+        {
+                printf("%d", num);
+        }
+        putchar('\n');
+        return (0);
 }
